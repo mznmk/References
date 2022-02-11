@@ -65,15 +65,31 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ---
 
 
-## Install Plugins
+## Install Plugins for vim-plug
 
 - vim-horizon  
 
 - NERDTree  
 
-- vim-commentary  
-
 - coc-nvim  
+
+	- install `Node.js`  
+
+	- install `Python3` as `Python`  
+		```sh
+		sudo apt install python3
+		sudo apt install pip3
+		sudo apt install python-is-python3
+		pip install pylint jedi
+		```
+
+	- add below script into vim-plug section in `init.vim`  
+		```vim
+		Plug 'neoclide/coc.nvim', {'branch': 'release'}
+		```
+	- enable coc-vim with vim-plug command  
+
+	- apply coc plugins with coc command  
 
 
 ## Edit Plugin Manager & Plugins Config

@@ -101,9 +101,6 @@ https://github.com/ntk148v/vim-horizon
 - NERDTree  
 https://github.com/preservim/nerdtree  
 
-- vim-commentary  
-https://github.com/tpope/vim-commentary  
-
 - coc-nvim  
 https://github.com/neoclide/coc.nvim  
 
