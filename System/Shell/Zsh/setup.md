@@ -46,6 +46,12 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ## Install Plugins
 
+- powerlevel10k  
+	
+- zsh-syntax-highlighting  
+
+- zsh-autosuggestions  
+
 
 ---
 
